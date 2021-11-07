@@ -1,0 +1,34 @@
+/* NAVBAR */
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-link{
+    color: #018790 !important;
+}
+
+/* BUTTON */
+.all-button{
+    border-radius: 20px;
+    background-color: #66BFBF;
+    color: white ;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) { 
+    /* NAVBAR */
+    .nav-link{
+        margin-right: 30px;
+        text-transform: uppercase;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #66BFBF;
+        width: 60%;
+        margin: auto;
+        padding-bottom: 4px;
+        margin-bottom: -7px;
+    }
+    /* END OF NAVBAR */
+ }
