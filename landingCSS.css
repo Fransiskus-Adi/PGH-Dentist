@@ -5,6 +5,14 @@
 .nav-link{
     color: #018790 !important;
 }
+/* JUMBOTRON */
+.jumbotron{
+    background-color: #EAF6F6;
+    background-size: cover;
+    height: 180px;
+    margin-top: -55px;
+    padding-top: 50px;
+}
 
 /* BUTTON */
 .all-button{
@@ -30,5 +38,9 @@
         padding-bottom: 4px;
         margin-bottom: -7px;
     }
-    /* END OF NAVBAR */
+    
+    /* SLIDER */
+    .carousel-item{
+        height: 500px;
+    }
  }
